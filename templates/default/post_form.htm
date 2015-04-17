@@ -366,13 +366,13 @@ function smiliePopup()
 					<td class="row2">
 						<div id="tabs10">
 							<ul>
-							    <li target="postOptions" class="current"><a href="javascript:void(0);" onClick="activateTab('postOptions', this);"><span>Options</span></a></li>
+							    <li target="postOptions" class="current"><a href="javascript:void(0);" onClick="activateTab('postOptions', this);"><span>选项</span></a></li>
 
 								<#if allowPoll>
-									<li target="postPoll"><a href="javascript:void(0);" onClick="activateTab('postPoll', this);"><span>Poll</span></a></li>
+									<li target="postPoll"><a href="javascript:void(0);" onClick="activateTab('postPoll', this);"><span>投票</span></a></li>
 								</#if>
 								<#if attachmentsEnabled>
-								    <li target="postAttachments"><a href="javascript:void(0);" onClick="activateTab('postAttachments', this);"><span>Attachments</span></a></li>
+								    <li target="postAttachments"><a href="javascript:void(0);" onClick="activateTab('postAttachments', this);"><span>附件</span></a></li>
 								</#if>
 							</ul>
 						</div>
@@ -402,7 +402,7 @@ function smiliePopup()
 							</div>
 						</#if>
 					</td>
-				</tr
+				</tr>
 
 				<#if needCaptcha?default(false)>
 					<tr>

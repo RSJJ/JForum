@@ -17,7 +17,8 @@ p, td { font-size: 11px; }
 -->
 
 <h1>${I18n.getMessage("ForumListing.versionInformation")}</h1>
-
+${I18n.getMessage("Admin.welcome.outdatedVersion")}
+<!--
 <#if !upToDate?exists>
 	<p style="color:red">${I18n.getMessage("Admin.welcome.unknowVersion")}</p>
 <#elseif !upToDate>
@@ -33,6 +34,7 @@ p, td { font-size: 11px; }
 <#else>
 	<p style="color: green">${I18n.getMessage("Admin.welcome.upToDateVersion")}</p>
 </#if>
+-->
 
 <#if developmentVersion> <p style="color: red"><b>${I18n.getMessage("Admin.welcome.warning")}</b></p> </#if>
 
